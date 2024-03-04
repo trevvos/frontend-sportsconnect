@@ -32,7 +32,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
           SOURCE: "./"
           REMOTE_HOST: "ec2-44-212-43-220.compute-1.amazonaws.com"
-          REMOTE_USER: "ec2-ser"
+          REMOTE_USER: "ec2-user"
           TARGET: "/var/www/html/sportsconnect"
           EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
 
